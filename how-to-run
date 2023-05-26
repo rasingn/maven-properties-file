@@ -1,0 +1,2 @@
+mvn exec:java -Dexec.mainClass="com.app" -Dexec.args="-Ddb.config.file=db-config-prod.properties"
+java -cp DemoMavenProject-1.0-SNAPSHOT.jar com.App
